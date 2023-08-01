@@ -41,8 +41,8 @@ body {
 }
 
 .menu__box {
-  width: 393px;
-  height: 503px;
+  width: 33%;
+  height: 36%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -50,8 +50,8 @@ body {
 }
 
 .menu__image-img {
-  width: 393px;
-  height: 393px;
+  width: 33%;
+  height: 33%;
 }
 
 .menu__text {
