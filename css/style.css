@@ -77,6 +77,7 @@ button {
 .tabs__btn-item {
   font-size: 16px;
   font-weight: 400;
+  color: var(--tg-theme-text-color);
   cursor: pointer;
   border: none;
   background-color: transparent;
