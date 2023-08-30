@@ -75,7 +75,7 @@ button {
 }
 
 .tabs__btn-item {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   cursor: pointer;
   border: none;
@@ -84,13 +84,14 @@ button {
 }
 
 .tabs__btn-item--active {
-  border-bottom: 1px var(--tg-theme-button-color) solid;
+  color: var(--tg-theme-button-color);
 }
 
 .card {
   background-color: var(--tg-theme-bg-color);
   width: 150px;
   height: 300px;
+  border-radius: 5px;
 }
 
 .card__img {
@@ -116,6 +117,7 @@ button {
   font-weight: 500;
   border: none;
   padding-top: 20px;
+  margin-bottom: 0;
 }
 
 .tabs__content-item {
