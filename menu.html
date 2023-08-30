@@ -1,11 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <div class="">test menu</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Меню</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="menu">
+        <div class="container">
+          <div class="tabs">
+            <div class="tabs__btn">
+              <button
+                class="tabs__btn-item tabs__btn-item--active"
+                data-button="content-1"
+              >
+                Завтраки
+              </button>
+              <button class="tabs__btn-item" data-button="content-2">
+                Салаты
+              </button>
+              <button class="tabs__btn-item" data-button="content-3">
+                Первые блюда
+              </button>
+              <button class="tabs__btn-item" data-button="content-4">
+                Вторые блюда
+              </button>
+              <button class="tabs__btn-item" data-button="content-5">
+                Закуски
+              </button>
+              <button class="tabs__btn-item" data-button="content-6">
+                Десерты
+              </button>
+              <button class="tabs__btn-item" data-button="content-7">
+                Холодные напитки
+              </button>
+              <button class="tabs__btn-item" data-button="content-8">
+                Горячие напитки
+              </button>
+            </div>
+            <div class="tabs__content">
+              <div
+                class="tabs__content-item tabs__content-item--active"
+                id="content-1"
+              >
+                <div class="card">
+                  <img src="images/card-1.jpeg" alt="" class="card__img" />
+                  <h4 class="card__title">Плов</h4>
+                  <p class="card__text">350 гр.</p>
+                  <button class="card__button">490</button>
+                </div>
+                <div class="card">
+                  <img src="images/card-1.jpeg" alt="" class="card__img" />
+                  <h4 class="card__title">Плов</h4>
+                  <p class="card__text">350 гр.</p>
+                  <button class="card__button">490</button>
+                </div>
+                <div class="card">
+                  <img src="images/card-1.jpeg" alt="" class="card__img" />
+                  <h4 class="card__title">Плов</h4>
+                  <p class="card__text">350 гр.</p>
+                  <button class="card__button">490</button>
+                </div>
+              </div>
+              <div class="tabs__content-item" id="content-2">2</div>
+              <div class="tabs__content-item" id="content-3">3</div>
+              <div class="tabs__content-item" id="content-4">4</div>
+              <div class="tabs__content-item" id="content-5">5</div>
+              <div class="tabs__content-item" id="content-6">
+                <div class="card">
+                  <img src="images/card-2.jpeg" alt="" class="card__img" />
+                  <h4 class="card__title">Тирамису</h4>
+                  <p class="card__text">300 гр.</p>
+                  <button class="card__button">650</button>
+                </div>
+              </div>
+              <div class="tabs__content-item" id="content-7">7</div>
+              <div class="tabs__content-item" id="content-8">8</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
