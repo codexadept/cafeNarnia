@@ -86,6 +86,9 @@ button {
   border: none;
   background-color: transparent;
   padding: 0;
+  border-radius: 25px;
+  padding: 8px 18px 9px 15px;
+  transition: 0.3s;
 }
 
 .tabs__btn-item--active {
@@ -93,6 +96,7 @@ button {
   background-color: var(--tg-theme-button-color);
   border-radius: 25px;
   padding: 8px 18px 9px 15px;
+  transition: 0.3s;
 }
 
 .card {
@@ -155,9 +159,11 @@ button {
   display: none;
   gap: 20px 20px;
   justify-content: center;
-  grid-template-columns: repeat(2, 41%);
+  grid-template-columns: repeat(2, 44%);
+  transition: 0.3s;
 }
 
 .tabs__content-item.tabs__content-item--active {
   display: grid;
+  transition: 0.3s;
 }
