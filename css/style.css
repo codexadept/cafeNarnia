@@ -53,11 +53,11 @@ button {
 }
 
 .menu {
-  padding-top: 20px;
+  padding-top: 1px;
 }
 
 .tabs__btn {
-  padding: 5px 100px;
+  padding: 7px 100px;
   display: flex;
   gap: 30px;
   width: 100%;
@@ -156,8 +156,9 @@ button {
 .tabs__content-item {
   display: none;
   gap: 20px 20px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .tabs__content-item.tabs__content-item--active {
-  display: flex;
+  display: grid;
 }
