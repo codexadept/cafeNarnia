@@ -62,16 +62,15 @@ button {
   gap: 30px;
   width: 100%;
   overflow-x: scroll;
-  -ms-overflow-style: none;
   scrollbar-width: none;
+  -ms-overflow-style: none;
   white-space: nowrap;
   position: fixed;
   border-bottom: 0.5px rgb(78, 78, 78) solid;
 }
 
 .tabs__btn::-webkit-scrollbar {
-  width: 0;
-  height: 0;
+  display: none;
 }
 
 .tabs__content {

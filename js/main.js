@@ -7,7 +7,7 @@ tabItem.forEach(function (element) {
 
 function open(evt) {
   const tabTarget = evt.currentTarget;
-  const button = tabTarget.dataset.button();
+  const button = tabTarget.dataset.button;
 
   tabItem.forEach(function (item) {
     item.classList.remove('tabs__btn-item--active');
