@@ -30,7 +30,7 @@ img {
 }
 
 body {
-  background-color: var(--tg-theme-secondary-bg-color);
+  background-color: var(--tg-theme-button-color);
   color: var(--tg-theme-text-color);
   font-family: 'Open Sans', sans-serif;
 }
@@ -101,7 +101,7 @@ button {
   width: 180px;
   height: 250px;
   border-radius: 8px;
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 14px 25px 0px rgba(0, 0, 0, 0.5);
 }
 
 .card__img {
